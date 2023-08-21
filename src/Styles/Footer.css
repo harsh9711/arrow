@@ -1,0 +1,60 @@
+.footer-rectangle {
+    border: 1px solid rgb(45, 45, 45);
+    color: white;
+    position: relative;
+    left:22%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    width: 55%;
+    padding: 50px;
+    border-radius: 10px;
+    margin-bottom: 2rem; /* Add margin at the bottom for spacing */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer-rectangle {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+  
+  .footer-content {
+    color: rgb(122, 122, 122);
+    flex: 1;
+    text-align: center; /* Center text for small screens */
+  }
+  
+  .footer-content h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.1rem;
+    font-family: "IBM Plex Mono", monospace;
+    margin-bottom: 3px;
+  }
+  
+  .icons-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /* Adjust gap between icons */
+    align-items: center;
+    justify-content: center; /* Center icons for small screens */
+    margin-top: 1rem; /* Add margin at the top for spacing */
+  }
+  
+  .icon {
+    font-size: 2rem; /* Adjust icon size */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .icons-container {
+      margin-top: 0; /* Remove margin for larger screens */
+    }
+  }

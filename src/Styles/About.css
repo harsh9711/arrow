@@ -1,0 +1,275 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .About {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+  
+    @media screen and (max-width: 768px) {
+      margin-top: 3rem; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  .heading {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    @media screen and (max-width: 768px) {
+      flex-direction: column; 
+      align-items: center;
+    }
+  }
+  
+  .heading h2 {
+    margin-left: 2rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem; /* Add some space on top */
+  
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  
+  .About img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 2rem; /* Add some space on top */
+  
+    @media screen and (max-width: 768px) {
+      margin-top: 1rem; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  .heading p {
+    text-align: left;
+    font-size: 2rem;
+    color: rgb(122, 122, 122);
+    font-weight: 800;
+    margin-top: 1rem; /* Add some space on top */
+  
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  
+  .secondparagraph p {
+    /* width:50%; */
+    font-size: 2.5rem;
+    text-align: left;
+     /* display: flex; */
+     /* justify-content: flex-start; */
+    color: white;
+    margin-top: 2rem; /* Add some space on top */
+    font-weight: 300;
+  
+    @media screen and (max-width: 768px) {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+    }
+  }
+  .features h2{
+    margin-top:10rem;
+    margin-bottom:2rem;
+    font-size:5rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 1rem;
+        margin-bottom:1rem;
+      }
+  }
+  .features li{
+    margin-top:1rem;
+    font-size:1rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 0.5rem; /* Adjust font size for smaller screens */
+      }
+  }
+  
+  .technology h2{
+    margin-top:10rem;
+    margin-bottom:2rem;
+    font-size:3.5rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+         margin-top:5rem;
+      }
+  }
+  .technology p{
+    margin-top:1rem;
+    font-size:1rem;
+    color: rgb(122, 122, 122);
+    @media screen and (max-width: 768px) {
+        font-size: 0.5rem; /* Adjust font size for smaller screens */
+      }
+  }
+  .btn{
+    margin-top:2rem;
+    font-family: "IBM Plex Mono",monospace;
+    /* margin:0px 8px 0px 0px; */
+/* padding:12px 20px; */
+    border-radius:10px;
+    width:15%;
+    height:5vh;
+    background-color: rgb(78, 74, 255);
+    border: rgb(78, 74, 255);
+    color:white;
+    font-weight:400;
+      @media screen and (max-width: 768px) {
+        width:25%;
+      }
+      @media screen and (max-width: 468px) {
+        width:35%;
+      }
+      @media screen and (max-width: 268px) {
+        width:65%;
+      }
+      @media screen and (max-width: 168px) {
+        width:95%;
+      }
+  }
+  .paragraph{
+    margin-top:10rem;
+ color:white;
+ font-size:3rem;
+ margin-bottom:10rem;
+ @media screen and (max-width: 768px) {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin-top:5rem;
+  }
+  }
+  .paragraph b{
+    text-decoration: none;
+    text-underline-offset: none;
+ color: rgb(78, 74, 255);
+
+  }
+  .navlink-active{
+  text-decoration: none;}
+  .team h2{
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-size:3.5rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        margin-top:1rem;
+      }
+  }
+  .team p{
+    margin-top:1rem;
+    font-size:2rem;
+    color:#C4C4C4;
+    @media screen and (max-width: 768px) {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        margin-top:0.5rem;
+      }
+  }
+  .founders h2{
+    margin-top:3rem;
+    margin-bottom:2rem;
+    font-size:2.5rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        margin-top:1rem;
+      }
+  }
+   
+  .core h2{
+    margin-top:3rem;
+    margin-bottom:2rem;
+    font-size:2.5rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        margin-top:1rem;
+      }
+  }
+  
+  .Avalanche h2{
+    margin-top:9rem;
+    margin-bottom:2rem;
+    font-size:3.5rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem; /* Adjust font size for smaller screens */
+        margin-top:1rem;
+      }
+  }
+  .Avalanche p{
+    margin-top:1rem;
+    font-size:1rem;
+    color:#C4C4C4;
+    @media screen and (max-width: 768px) {
+        font-size: 1rem; /* Adjust font size for smaller screens */
+        margin-top:0.5rem;
+      }
+  }
+  .footer-rectangle {
+    border: 1px solid rgb(45, 45, 45);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 6rem;
+    width: 95%;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 2rem; /* Add margin at the bottom for spacing */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .footer-rectangle {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+  }
+  
+  .footer-content {
+    color: rgb(122, 122, 122);
+    flex: 1;
+    text-align: center; /* Center text for small screens */
+  }
+  
+  .footer-content h2 {
+    font-size: 1rem;
+    margin-bottom: 10px;
+  }
+  
+  .footer-content h5 {
+    font-size: 1.1rem;
+    font-family: "IBM Plex Mono", monospace;
+    margin-bottom: 3px;
+  }
+  
+  .icons-container {
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem; /* Adjust gap between icons */
+    align-items: center;
+    justify-content: center; /* Center icons for small screens */
+    margin-top: 1rem; /* Add margin at the top for spacing */
+  }
+  
+  .icon {
+    font-size: 2rem; /* Adjust icon size */
+  }
+  
+  @media screen and (min-width: 768px) {
+    .icons-container {
+      margin-top: 0; /* Remove margin for larger screens */
+    }
+  }

@@ -1,0 +1,117 @@
+.page-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .About {
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: column;
+  
+    @media screen and (max-width: 768px) {
+      margin-top: 3rem; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  .heading {
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+  
+    @media screen and (max-width: 768px) {
+      flex-direction: column; 
+      align-items: center;
+    }
+  }
+  
+  .heading h2 {
+    margin-left: 2rem;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem; /* Add some space on top */
+  
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  
+  .About img {
+    max-width: 100%; /* Make the image responsive */
+    height: auto; /* Maintain aspect ratio */
+    margin-top: 2rem; /* Add some space on top */
+  
+    @media screen and (max-width: 768px) {
+      margin-top: 1rem; /* Adjust margin for smaller screens */
+    }
+  }
+  
+  .heading p {
+    text-align: left;
+    font-size: 2rem;
+    color: rgb(122, 122, 122);
+    font-weight: 800;
+    margin-top: 1rem; /* Add some space on top */
+  
+    @media screen and (max-width: 768px) {
+      font-size: 1.5rem; /* Adjust font size for smaller screens */
+    }
+  }
+  
+  .listing{
+    margin-top: 10rem;
+    color:White;
+
+  }
+  .listing h1 {
+    color:White;
+    margin-bottom:4rem;
+    font-size:3rem;
+
+  }
+  /* .btn1{
+    position: relative;
+   left:60%;
+    /* top:-50%; */
+    /* margin-bottom:5rem; */
+
+
+.section-header {
+    margin-bottom:4rem;
+  display: flex;
+  align-items: center; /* Align items vertically in the center */
+  cursor: pointer;
+}
+
+.section-header h1 {
+    
+  margin: 0; /* Remove default margin for h1 */
+  flex: 1; /* Allow the h1 to grow and take remaining space */
+}
+
+.section-header .btn1 {
+  margin-left: 10px; /* Add some space between the h1 and the icon */
+}
+/* .section-header.active h1::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 65%;
+  height: 2px; /* Adjust the height as needed */
+  /* background-color: grey; Adjust the color as needed */
+  /* bottom: -23%; */
+  /* left: 18%; */
+/* } */
+/* .section-header h1::after { */
+    /* content: ""; */
+    /* display: block; */
+    /* position: absolute;
+    width: 65%;
+    height: 2px;
+    background-color: grey;
+    bottom: 25%;
+    left: 17.5%; */
+  /* }  */

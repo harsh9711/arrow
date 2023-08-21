@@ -1,0 +1,13 @@
+.navbar1
+{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    gap:1rem; 
+ 
+}
+.navbar1 li{
+    margin-top: 1rem;
+}   

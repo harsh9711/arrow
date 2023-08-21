@@ -1,0 +1,83 @@
+{
+  "Research": [
+    {
+      "Asset Pricing": [
+        "Existence of an Equilibrium for a Competitive Economy, 1954, Arrow and Debreu",
+        "The Pricing of Options and Corporate Liabilities, 1973, Black and Scholes",
+        "Intertemporal Capital Asset Pricing Model (ICAPM), 1973, Merton",
+        "Theory of Rational Option Pricing, 1973, Merton",
+        "Options and Efficiency, 1976, Ross",
+        "Arbitrage Theory of Capital Asset Pricing, 1976, Ross",
+        "Asset Prices in an Exchange Economy, 1978, Lucas",
+        "Intertemporal Asset Pricing with Stochastic Consumption and Investment Opportunities, 1979, Breeden",
+        "Martingales and Arbitrage in Multiperiod Securities Markets, 1979, Harrison and Kreps",
+        "A Theory of the Term Structure of Interest Rates, 1985, Cox, Ingersoll, and Ross (CIR)",
+        "The Role of Conditioning Information in Deducing Testable Restrictions Implied by Dynamic Asset Pricing Models",
+        "Asset Price Bubbles in Incomplete Markets, 2010, Jarrow et al."
+      ]
+    },
+    {
+      "Risk Measures": [
+        "ENTROPIC RISK MEASURES: COHERENCE VS. CONVEXITY, MODEL AMBIGUITY AND ROBUST LARGE DEVIATIONS",
+        "Entropic Value-at-Risk: A New Coherent Risk Measure",
+        "Coherent Measures of Risk, 2001, Artzner et al.",
+        "Vector-Valued Coherent Risk Measures, 2004, Jouini, Meddeb, and Touzi",
+        "Axiomatic Approach to Risk Measures for Capital Determination"
+      ]
+    },
+    {
+      "Blockchain Economics": [
+        "Digital Tokens and Platform Building, 2018, Li and Mann",
+        "Toward a Factor Structure in Crypto Asset Returns, 2018, Li and Yi",
+        "FlashBoys 2.0, 2019, Daian et al.",
+        "A Classification Framework for Stablecoin Designs, 2019, Moin, Sirer, and Sekniqi",
+        "Blockchain Economics, 2019, Abadi and Brunnermeier",
+        "A Brief Introduction to Blockchain Economics, 2019, Chen, Cong, and Xiao",
+        "Blockchain Disruption and Smart Contracts, 2019, Cong and He",
+        "StableFees: A Predictable Fee Market for Cryptocurrencies",
+        "Tokenomics: Dynamic Adoption and Valuation",
+        "Token-Based Platform Finance, 2020, Cong, Li, and Wang"
+      ]
+    },
+    {
+      "Market Microstructure": [
+        "Continuous Auctions and Insider Trading, 1985, Kyle",
+        "Bid, ask and transaction prices in a specialist market, 1985, Glosten and Milgrom",
+        "Insider Trading in Continuous Time, 1992, Back",
+        "Asymmetric Information and Options, 1993, Back",
+        "Flow Toxicity and Liquidity in a High-frequency World, 2012, Easley, Lopez de Prado, and O'Hara",
+        "High-Frequency Trading Arms Race, 2015, Budish, Crampton, and Shim",
+        "Trades, Quotes and Prices, 2018, Bouchaud et al."
+      ]
+    },
+    {
+      "Consensus": [
+        "Bitcoin: A Peer-to-Peer Electronic Cash System",
+        "Ethereum Whitepaper",
+        "Avalanche Consensus Protocol Whitepaper",
+        "The Byzantine Generals Problem, 1982, Lamport et al.",
+        "The Part-Time Parliament, 1988, Lamport",
+        "Time, Clocks, and the Ordering of Events in a Distributed System, 1978, Lamport",
+        "Majority is not Enough: Bitcoin Mining is Vulnerable (Selfish Mining), Eyal and Sirer"
+      ]
+    },
+    {
+      "Cryptography": [
+        "Probabilistic Encryption, 1984, Goldwasser and Micali",
+        "The Knowledge Complexity of Interactive Proof Systems, 1985, Goldwasser, Micali, and Rackoff",
+        "New Directions in Cryptography",
+        "How to play ANY mental game, 1987, Goldreich, Micali, and Wigderson",
+        "How to Generate and Exchange Secrets, 1986, Yao",
+        "Town Crier, 2016 Zhang et al."
+      ]
+    },
+    {
+      "Deep Hedging": [
+        "Statistical Hedging, 2013, Buehler",
+        "Deep Hedging, 2019, Buehler et al.",
+        "Deep Hedging: Learning to Remove the Drift, 2022, Beuhler et al.",
+        "Quant GANS, 2019 Wiese et al."
+      ]
+    }
+  ]
+}
