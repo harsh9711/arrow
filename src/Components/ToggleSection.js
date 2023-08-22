@@ -1,23 +1,35 @@
 import React, { useState } from 'react';
+import jsonData from './data.json'; // Adjust the path to your JSON file
 
-function ToggleParagraph() {
-  // const [isParagraphVisible, setParagraphVisible] = useState(true);
+function ToggleSection() {
+  const [isParagraphVisible, setParagraphVisible] = useState(true);
 
-  // const toggleParagraph = (props) => {
-  //   setParagraphVisible(!isParagraphVisible);
-  // };
+  const toggleParagraph = () => {
+    setParagraphVisible(!isParagraphVisible);
+  };
+
+  const researchData = jsonData.Research;
+
   return (
     <div>
       <div>
-        <h2>{props.Heading}</h2>
+        <h2>Research Data</h2>
         <button onClick={toggleParagraph}>
-          {isParagraphVisible ? 'hide' : 'show'} Paragraph
+          {isParagraphVisible ? 'Hide' : 'Show'} Paragraph
         </button>
       </div>
       {isParagraphVisible && (
         <ul>
-          {props.Paragraph.map((item,index)(
-          <li key={index}>{item}</li>))}
+          {researchData.map((researchCategory, index) => (
+            <li key={index}>
+              <h3>{Object.keys(researchCategory)[0]}</h3>
+              <ul>
+                {researchCategory[Object.keys(researchCategory)[0]].map((item, itemIndex) => (
+                  <li key={itemIndex}>{item}</li>
+                ))}
+              </ul>
+            </li>
+          ))}
         </ul>
       )}
       <div className='line'></div>
@@ -25,4 +37,4 @@ function ToggleParagraph() {
   );
 }
 
-export default ToggleParagraph;
+export default ToggleSection;

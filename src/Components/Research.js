@@ -1,3 +1,16 @@
+// import React from 'react'
+
+// const Research = () => {
+//   return (
+//     <div>
+//       <p>harsh
+//       </p>
+//     </div>
+//   )
+// }
+
+// export default Research
+
 import React,{useState} from 'react'
 import "../Styles/Reasearch.css"
 import {NavLink} from "react-router-dom"
@@ -10,17 +23,17 @@ import RiskMeasures from './RiskMeasures'
 import ToggleSection from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/Research.js"
 
 
-const About = () => {
-    // const [assetStatus, setAssetStatus] = useState(true);
-    // const [riskStatus, setRiskStatus] = useState(true);
+const Research = () => {
+    const [assetStatus, setAssetStatus] = useState(true);
+    const [riskStatus, setRiskStatus] = useState(true);
   
-    // const toggleAssetStatus = () => {
-    //   setAssetStatus(!assetStatus);
-    // };
+    const toggleAssetStatus = () => {
+      setAssetStatus(!assetStatus);
+    };
   
-    // const toggleRiskStatus = () => {
-    //   setRiskStatus(!riskStatus);
-    // }; 
+    const toggleRiskStatus = () => {
+      setRiskStatus(!riskStatus);
+    }; 
      return (
     <div className="page-container">
     <div className="About">
@@ -30,11 +43,11 @@ const About = () => {
       <div className="image"><img src={imageSrc} alt="images"/> </div>
       </div>
       <div className="listing">
-      <ToggleSection/>
+      <ToggleSection />
         </div>
     </div>
     </div>
   );
 };
 
-export default About;
+export default Research;
