@@ -1,38 +1,53 @@
 import React, { useState } from 'react';
-import jsonData from './data.json'; // Adjust the path to your JSON file
+import data from '/Users/harshsahcdeva/Desktop/demo/project2/src/data/data3.json';
+import '../Styles/toggle.css';
+import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
+
 
 function ToggleSection() {
-  const [isParagraphVisible, setParagraphVisible] = useState(true);
+  // Initialize visibility state for each category
+  const [categoryVisibility, setCategoryVisibility] = useState(
+    data.Research.map(() => true)
+  );
 
-  const toggleParagraph = () => {
-    setParagraphVisible(!isParagraphVisible);
+  // Function to toggle the visibility of a specific category
+  const toggleCategoryVisibility = (index) => {
+    const updatedVisibility = [...categoryVisibility];
+    updatedVisibility[index] = !updatedVisibility[index];
+    setCategoryVisibility(updatedVisibility);
   };
-
-  const researchData = jsonData.Research;
 
   return (
     <div>
-      <div>
-        <h2>Research Data</h2>
-        <button onClick={toggleParagraph}>
-          {isParagraphVisible ? 'Hide' : 'Show'} Paragraph
-        </button>
-      </div>
-      {isParagraphVisible && (
-        <ul>
-          {researchData.map((researchCategory, index) => (
-            <li key={index}>
-              <h3>{Object.keys(researchCategory)[0]}</h3>
-              <ul>
-                {researchCategory[Object.keys(researchCategory)[0]].map((item, itemIndex) => (
-                  <li key={itemIndex}>{item}</li>
-                ))}
-              </ul>
-            </li>
-          ))}
-        </ul>
-      )}
-      <div className='line'></div>
+      {data.Research.map((category, index) => (
+        <div key={index} className="category-container">
+          <div className="category-header">
+            <h2>{Object.keys(category)[0]}</h2>
+            <button
+              className="toggle-button" // Apply the CSS class to the button
+              onClick={() => toggleCategoryVisibility(index)}
+            >
+              {categoryVisibility[index] ? (
+                <span className="toggle-icon">
+                <AiOutlineUp/>
+                </span>
+              ) : (
+                <span className="toggle-icon">
+                <AiOutlineDown/></span>
+              )}
+            </button>
+          </div>
+          {categoryVisibility[index] && (
+            <ul>
+              {category[Object.keys(category)[0]].map((item, itemIndex) => (
+                <li key={itemIndex}>{item}</li>
+              ))}
+            </ul>
+          )}
+          {/* <div className='line'></div> */}
+          <hr/>
+        </div>
+      ))}
     </div>
   );
 }

@@ -1,0 +1,30 @@
+/* CSS for the toggle buttons */
+.toggle-button {
+    position: relative;
+    margin-left:60rem;
+    top:2%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    color:#FFFFFF;
+    width:25px;
+    height: 15px;
+  }
+  .category-header h2{
+   font-size:2rem;
+  }
+  
+  .toggle-button:focus {
+
+    outline: none; /* Remove focus outline if needed */
+  }
+  
+  /* CSS for the arrow icons */
+  .toggle-icon {
+    vertical-align: middle;
+    margin-left: 8px; /* Adjust margin as needed */
+  }
+  .hr{
+
+  }

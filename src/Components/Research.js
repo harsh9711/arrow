@@ -1,16 +1,3 @@
-// import React from 'react'
-
-// const Research = () => {
-//   return (
-//     <div>
-//       <p>harsh
-//       </p>
-//     </div>
-//   )
-// }
-
-// export default Research
-
 import React,{useState} from 'react'
 import "../Styles/Reasearch.css"
 import {NavLink} from "react-router-dom"
@@ -18,9 +5,8 @@ import List from "./Asset.js"
 import imageSrc from "../assets/2.png"
 import {BsTelegram} from 'react-icons/bs';
 import {AiOutlineUp} from 'react-icons/ai';
-import {AiOutlineDown} from 'react-icons/ai';
 import RiskMeasures from './RiskMeasures'
-import ToggleSection from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/Research.js"
+import ToggleSection from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/ToggleSection.js"
 
 
 const Research = () => {
