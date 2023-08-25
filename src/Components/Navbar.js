@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { NavLink, useLocation } from 'react-router-dom'; // Import useLocation
 
 import "../Styles/Navbar.css"
-import imageSrc1 from "/Users/harshsahcdeva/Desktop/demo/project2/src/assets/hs.jpeg"
+import imageSrc1 from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/assets/hs.jpeg"
 import {FiShoppingCart} from "react-icons/fi";
 import {CgMenu,CgClose} from "react-icons/cg";
 

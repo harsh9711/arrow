@@ -5,8 +5,8 @@ import {BsUniversalAccessCircle} from 'react-icons/bs'
 import {BsCardChecklist} from 'react-icons/bs';
 import {FaDiscord} from 'react-icons/fa';
 import {RiNftLine} from 'react-icons/ri';
-import Card3 from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/Card3.js"
-import Card5 from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/Card5.js"
+import Card3 from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/Card3.js"
+import Card5 from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/Card5.js"
 import SecondForm from "./SecondForm.js"; 
 import FirstForm from "./FirstForm.js"; 
 const FormBox = () => {

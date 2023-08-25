@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import "../Styles/Reasearch.css"
 import {NavLink} from "react-router-dom"
 import imageSrc1 from "../assets/4.png"
-import ToggleSection2 from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/ToggleSection2.js"
+import ToggleSection2 from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/ToggleSection2.js"
 
 
 const Recruitment = () => {

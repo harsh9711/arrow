@@ -1,5 +1,5 @@
 import React from 'react'
-import data from "/Users/harshsahcdeva/Desktop/demo/project2/src/data/data4.json"
+import data from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/data/data4.json"
 import "../Styles/Card4.css"
 import {AiFillInstagram} from 'react-icons/ai';
 

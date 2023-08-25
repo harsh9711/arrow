@@ -2,8 +2,8 @@ import React from 'react'
 import "../Styles/About.css"
 import {NavLink} from "react-router-dom"
 import imageSrc from "../assets/1.png"
-import Card from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/Card.js"
-import Card2 from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/Card2.js"
+import Card from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/Card.js"
+import Card2 from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/Card2.js"
 const About = () => {
   return (
     <div className="page-container">

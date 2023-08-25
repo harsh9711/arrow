@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import data from '/Users/harshsahcdeva/Desktop/demo/project2/src/data/data3.json';
+import data from '/Users/harshsahcdeva/Documents/GitHub/arrow/src/data/data3.json';
 import '../Styles/toggle2.css';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 

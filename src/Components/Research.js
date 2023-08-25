@@ -6,7 +6,7 @@ import imageSrc from "../assets/3.png"
 import {BsTelegram} from 'react-icons/bs';
 import {AiOutlineUp} from 'react-icons/ai';
 import RiskMeasures from './RiskMeasures'
-import ToggleSection from "/Users/harshsahcdeva/Desktop/demo/project2/src/Components/ToggleSection.js"
+import ToggleSection from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/ToggleSection.js"
 
 
 const Research = () => {
