@@ -1,0 +1,78 @@
+
+.classes1{
+    display:flex;
+    flex-direction:column;
+    position: relative;
+
+}
+.classes2{
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    flex-direction:column;
+    position: relative;
+    right:1%;
+}
+
+.classes1 h5{
+    font-size:0.6rem;
+   color: rgb(122, 122, 122);
+
+}
+.classes1 h1{
+    padding:1rem;
+    font-size:1rem;
+    /* left:10%; */
+}
+.classes2 h1{
+    padding:1rem;
+    font-size:1rem;
+}
+.classes2 h5{
+    color: rgb(122, 122, 122);
+    font-size:0.6rem; 
+}
+/* Card5.css */
+.container5 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left:0%;
+  }
+  
+  .cards5 {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:1%;
+    display: flex;
+    flex-direction: column; /* Display cards in a column */
+    gap: 1px; /* Add gap between cards */
+  }
+  
+  .card5 {
+    /* width:90%; */
+    border: 1px solid rgb(45, 45, 45);
+    color: white;
+    display: flex;
+    flex-direction: row; /* Display card content in a column */
+    padding: 20px;
+    border-radius: 10px;
+    transition: 0.3s ease; /* Add smooth transition effect */
+  }
+  .flexing5{
+    justify-content: space-between;
+    gap:21rem;
+    display: flex;
+    flex-direction: row;
+  }
+  @media screen and (max-width: 768px) {
+    .flexing5{
+      justify-content: space-between;
+      gap:0.2rem;
+      display: flex;
+      flex-direction: row;
+    }
+    
+  }
+  

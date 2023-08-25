@@ -3,11 +3,9 @@ import data from '/Users/harshsahcdeva/Desktop/demo/project2/src/data/data3.json
 import '../Styles/toggle.css';
 import { AiOutlineDown, AiOutlineUp } from 'react-icons/ai';
 
-
 function ToggleSection() {
-  // Initialize visibility state for each category
   const [categoryVisibility, setCategoryVisibility] = useState(
-    data.Research.map(() => true)
+    data.Research.map(() => false)
   );
 
   // Function to toggle the visibility of a specific category
@@ -24,17 +22,16 @@ function ToggleSection() {
           <div className="category-header">
             <h2>{Object.keys(category)[0]}</h2>
             <button
-              className="toggle-button" // Apply the CSS class to the button
+              className="toggle-button"
               onClick={() => toggleCategoryVisibility(index)}
             >
-              {categoryVisibility[index] ? (
-                <span className="toggle-icon">
-                <AiOutlineUp/>
-                </span>
-              ) : (
-                <span className="toggle-icon">
-                <AiOutlineDown/></span>
-              )}
+              <span className="toggle-icon">
+                {categoryVisibility[index] ? (
+                  <AiOutlineUp /> // Change the icon to AiOutlineUp when content is visible
+                ) : (
+                  <AiOutlineDown /> // Use AiOutlineDown when content is not visible
+                )}
+              </span>
             </button>
           </div>
           {categoryVisibility[index] && (
@@ -44,8 +41,7 @@ function ToggleSection() {
               ))}
             </ul>
           )}
-          {/* <div className='line'></div> */}
-          <hr/>
+          <hr className="heading-line" />
         </div>
       ))}
     </div>

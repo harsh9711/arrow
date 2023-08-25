@@ -2,7 +2,7 @@ import React,{useState} from 'react'
 import "../Styles/Reasearch.css"
 import {NavLink} from "react-router-dom"
 import List from "./Asset.js"
-import imageSrc from "../assets/2.png"
+import imageSrc from "../assets/3.png"
 import {BsTelegram} from 'react-icons/bs';
 import {AiOutlineUp} from 'react-icons/ai';
 import RiskMeasures from './RiskMeasures'

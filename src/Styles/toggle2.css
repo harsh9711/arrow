@@ -34,10 +34,11 @@
     border-color:grey;
     -webkit-text-decoration-line: overline;
     text-decoration-line: overline; 
-    width: 84.2%;
+    width: 88%;
     margin-bottom:2rem;
     margin-top:2rem;
     height:0.4px;
+    margin-left:-2rem;
   }
   .category-container:hover .category-header h2 {
    
@@ -58,10 +59,13 @@
    margin-bottom:2rem;
   }
   .category-content p{
+    line-break: strict;
+    margin-top:1rem;
     margin-left:-2rem;
     font-size: 0.8rem;
   }
 /* Add space below heading1 and heading2 */
 .space {
-  margin-bottom: 20px; /* Adjust the margin as needed */
-}
+    margin-bottom: 20px; /* Adjust the margin as needed */
+  }
+  

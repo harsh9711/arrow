@@ -115,3 +115,24 @@
     bottom: 25%;
     left: 17.5%; */
   /* }  */
+
+  .technology1 h2{
+    margin-left:-2rem;
+    margin-top:2rem;
+    margin-bottom:2rem;
+    font-size:2.6rem;
+    color:white;
+    @media screen and (max-width: 768px) {
+        font-size: 2rem;
+         margin-top:5rem;
+      }
+  }
+  .technology1 p{
+    margin-left:-2rem;
+    margin-top:1rem;
+    font-size:1.5rem;
+    color: rgb(122, 122, 122);
+    @media screen and (max-width: 768px) {
+        font-size: 0.5rem; /* Adjust font size for smaller screens */
+      }
+  }

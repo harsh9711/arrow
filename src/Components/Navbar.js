@@ -1,13 +1,15 @@
-import React,{useState,useEffect} from 'react'
-import {NavLink} from "react-router-dom"
+import React, { useState, useEffect } from 'react';
+import { NavLink, useLocation } from 'react-router-dom'; // Import useLocation
+
 import "../Styles/Navbar.css"
 import imageSrc1 from "/Users/harshsahcdeva/Desktop/demo/project2/src/assets/hs.jpeg"
 import {FiShoppingCart} from "react-icons/fi";
 import {CgMenu,CgClose} from "react-icons/cg";
 
-const Navbar = () =>
-{  
-  const[isMobile,setIsMobile]=useState(false);
+const Navbar = () => {
+  const [isMobile, setIsMobile] = useState(false);
+  const location = useLocation(); // Get the current route location
+
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth > 1000) {
@@ -21,17 +23,17 @@ const Navbar = () =>
       window.removeEventListener('resize', handleResize);
     };
   }, []);
-
   return(
     <div className={isMobile ? 'mobile-menu-open' : ''}>
       <nav className="header">
-    <div className="logo">
-    <NavLink to = "/About">
-        <img src={imageSrc1}/>
-        </NavLink>
-    </div>  
+    
     <ul className={isMobile? "nav-links-mobile":"nav-links"}
     onClick={()=>setIsMobile(false)}>
+    <li className="logo">
+    <NavLink to = "/About">
+        <img src={imageSrc1} />
+        </NavLink>
+    </li>  
       <li>
         <NavLink to = "/About" className="navbar-link">
            ABOUT
@@ -48,13 +50,19 @@ const Navbar = () =>
         </NavLink>
       </li>
       <li>
-        <NavLink to = "/Docs" className="navbar-link">
-       DOCS
-        </NavLink>
+        <a
+    href="https://docs.arrow.markets/arrow-markets/welcome/about-arrow-markets"
+    className="navbar-link"
+    target="_blank" // Add target="_blank" to open in a new tab
+    rel="noopener noreferrer" // Recommended for security
+  >DOCS</a>
       </li> 
       <li>
-        <NavLink to = "/Waitlist" className="navbar-link">
-        WAITLIST
+      <NavLink
+              to="/Waitlist"
+              className="navbar-link"
+              style={{ color: location.pathname === '/Waitlist' ? 'white' : 'rgb(78, 74, 255)' }}
+            >        WAITLIST
         </NavLink>
       </li>
       <div className="buttons">

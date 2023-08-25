@@ -1,0 +1,290 @@
+/* Form box styles */
+.whole{
+  margin: 2rem auto 0;
+  padding: 0 20px;
+}
+.container11 {
+  gap:5rem;
+  max-width: 1200px;
+  margin: 2rem auto 0;
+  padding: 0 20px;
+  background-color: rgb(78, 74, 255);
+  display: flex;
+  flex-direction: row;
+}
+.headings h2{
+  background-color: rgb(78, 74, 255);
+  font-size: 3rem;
+}
+.headings p{
+  background-color: rgb(78, 74, 255);
+
+}
+.form-box {
+  background-color: rgb(78, 74, 255);
+  color: white;
+  max-width: 45%; /* Adjust the width of the form box */
+  border-radius: 5px;
+  padding: 2rem;
+}
+
+/* Remove background-color rules from individual elements unless necessary */
+
+.form h2 {
+  font-size: 3rem; /* Adjust font size for headings */
+  margin-bottom: 0.5rem;
+}
+
+.headings {
+  width: 100%; /* Make it full-width */
+  margin-bottom: 1rem; /* Adjust margin for spacing */
+}
+
+.form-group {
+  background-color: rgb(78, 74, 255);
+  color: white;
+  margin-bottom: 1rem; /* Adjust margin for spacing */
+  padding: 0; /* Remove padding from the form group */
+}
+
+label {
+  background-color: rgb(78, 74, 255);
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  background-color: rgb(78, 74, 255);
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  /* border-radius: 5px; */
+}
+.form-group input[type="text"] {
+  background: none;
+  border: none;
+  border-bottom: 1px solid #ccc; /* Add a bottom border for the baseline */
+  padding: 10px; /* Add padding only to the input element */
+  border-radius: 0; /* Remove border-radius */
+}
+
+button[type="submit"] {
+  background-color: white;
+  padding: 20px 45px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem; /* Adjust font size */
+  font-weight: 400; /* Adjust font weight */
+}
+.bottompart{
+  background-color:  rgb(78, 74, 255);
+}
+.bottompart p{
+  margin-bottom: 2rem;
+}
+.bottompart h5{
+  background-color:  rgb(78, 74, 255);
+  margin-top: 1rem;
+}
+
+
+.big1img {
+  position: relative;
+  top:-15%;
+  left:-5%;
+  max-width: 120%; /* Make it responsive */
+  font-size: 6rem; /* Adjust font size */
+background-color: rgb(51, 46, 191);
+  margin-bottom: 2rem; /* Adjust margin for spacing */
+}
+.big2img {
+  max-width: 100%; /* Make it responsive */
+  font-size: 3rem; /* Adjust font size */
+background-color: rgb(51, 46, 191);
+  margin-bottom: 1rem; /* Adjust margin for spacing */
+}
+
+
+/* Optional: Add styles for the card headings and content */
+.small1 h2 {
+  font-size: 1rem; 
+  margin-bottom: 0.5rem;
+}
+.big1 h2{
+  font-size:2.5rem;
+background-color: rgb(51, 46, 191);
+
+}
+.big1 p{
+  margin-top:0.5rem;
+  font-size:0.7rem;
+background-color: rgb(51, 46, 191);
+}
+
+
+/* Container styles using CSS Grid */
+.image1{
+  background-color: rgb(78, 74, 255);
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Automatically adjust columns */
+  max-width: 45%; /* Make it responsive */
+}
+
+/* Styles for the large box */
+
+
+/* Styles for the small boxes */
+.small1 {
+  color: white;
+background-color: rgb(51, 46, 191);
+  border-radius: 5px;
+  padding: 1rem;
+  width:95%;
+  font-size:2rem;
+  margin-bottom:0.7rem;
+}
+.small1 h2 {
+  margin-top:0rem;
+  background-color: rgb(51, 46, 191);
+  font-size: 1rem;; 
+}
+
+/* Add media queries for responsiveness as needed */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+
+  .form-box {
+    max-width: 90%; /* Adjust max-width for smaller screens */
+  }
+
+  .big1img {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+  }
+
+  /* Add more responsive styles as needed */
+}
+.flexing {
+  background-color: rgb(78, 74, 255);
+  display: flex;
+  gap:0.5rem;
+  flex-wrap: wrap; /* Enable wrapping of flex items */
+}
+.flexing1 {
+  gap:0.5rem;
+position: relative;
+left:5%;
+  background-color: rgb(78, 74, 255);
+  display: flex;
+  flex-wrap: wrap; /* Enable wrapping of flex items */
+}
+
+.big1{
+  grid-column: span 2; 
+  margin-top:2rem;
+  color: white;
+background-color: rgb(51, 46, 191);
+  border-radius: 5px;
+  padding: 2rem;
+  width:100%;
+  flex-basis: calc(50% - 20px);
+  margin-right: 20px;
+  margin-bottom: 13px;
+  box-sizing: border-box;
+}
+.bottompart p{
+background-color: rgb(78, 74, 255);
+}
+.form-center{
+  background-color: rgb(78, 74, 255);
+}
+.bottompart2{
+  background-color: rgb(78, 74, 255);
+  display: flex;
+  flex-direction: row;
+}
+.bottompart2 h3{
+  margin-left:0.3rem;
+  margin-top:1rem;
+  background-color: rgb(78, 74, 255);
+  font-size:1rem;
+color:white;
+  }
+@media screen and (max-width: 768px) {
+  .container11 {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items horizontally on smaller screens */
+    margin-top: 2rem; /* Add space from the top */
+  }
+
+  .form-box {
+    max-width: 100%; /* Adjust max-width for smaller screens */
+  }
+
+  .big1img {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    top: 0; /* Reset the top position */
+    left: 0; /* Reset the left position */
+  }
+
+  .flexing,
+  .flexing1 {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: center; /* Center items horizontally on smaller screens */
+  }
+  
+  .big1 {
+    width: 100%; /* Adjust width for smaller screens */
+  }
+
+  /* Add more responsive styles as needed */
+}
+.boosts{
+  font-size:2rem;
+  color:white;
+  position: relative;
+  margin-top:4rem;
+  margin-bottom:2rem;
+  @media screen and (max-width: 768px) {
+      font-size: 2rem; /* Adjust font size for smaller screens */
+      margin-top:1rem;
+    }
+}
+.boosts h2{
+  margin-bottom:2rem;
+  margin-left:14rem;
+ 
+}
+.cardstyle{
+  justify-content: center;
+  margin-right:2rem;
+}
+.heading-line4{
+  border-color:grey;
+  -webkit-text-decoration-line: overline;
+  text-decoration-line: overline; 
+  width: 8%;
+  margin-bottom:3rem;
+  margin-top:2rem;
+  height:0.4px;
+}
+.headingslines4{
+  position: relative;
+  left:10.5%;
+  gap:1rem;
+  display:flex;
+}
+.boosts p{
+  position: relative;
+  left:10.5%;
+  margin-bottom:4rem;
+  font-size:1.5rem;
+  color:white;
+}
+
+
+
+

@@ -79,5 +79,85 @@
         "Quant GANS, 2019 Wiese et al."
       ]
     }
+  ],
+  "Recruitment":[
+    {
+      
+      "Frontend Developer": [
+        {
+        "heading1":"We are looking for front-end developers to work closely with our small team of founders and engineers to help implement a top of the line DeFi UI/UX",
+        "Responsibilities:":[
+          "Working with our designers to implement an intuitive user friendly interface that leverages tried and tested UI features from other popular fintech web apps.",
+         "Implement creative data visualization solutions to help users understand risks in their portfolios.",
+          "Test and deploy a production ready web application that connects to our backend solidity contracts using web3 or Ethers.js"
+        ],
+        "Requirements:":[
+          "3 + years web development experience",
+         "Advanced level for JavaScript (or TypeScript) + HTML/CSS",
+         " 2 + years experience with React in production or other similar development framework in production",
+          "Familiarity with Web3 framework or similar toolkit for accessing smart contract functions from the front-end"
+        ],
+       "Nice to have:":[
+        "Experience with Angular",
+        "Design experience",
+        "Experience in a production setting developing with Web3 in JavaScript and/or Python",
+        "Familiarity with options trading and finance",
+        "Familiarity with R or other scientific computing tools or numerical methods",
+        "Experience with DeFi",
+        "Degree in computer science or applied mathematics"
+        ]
+      }
+      ]
+    },
+    {
+      "Blockchain Developer": [
+        {
+        "heading1":"We are looking for a motivated and experienced smart contract engineer to build the next generation of DeFi protocols with us.",
+        "Responsibilities:":[
+          "Help design, test and implement Arrow's periphery smart contracts for deployment on Avalanche's C-Chain",
+          "Contribute to security and efficiency testing of Arrow's core contracts",
+          "Help test and optimize Arrow's pricing API and option delivery circuit"
+        ],
+        "Requirements:":[
+        "2+ years of experience with Solidity production work or 2+ years of distributed systems software engineering",
+        "Familiarity with Web3 framework or similar toolkit for accessing smart contract functions from the front-end",
+        "Experience deploying smart contract suites to an EVM-compatible chain"
+        ],
+       "Nice to have:":[
+      "Experience in production with Web3 in JavaScript and/or Python",
+      "Experience with low latency production code",
+      "Experience with smart contract security audits",
+      "Familiarity with options and finance",
+      "Familiarity with R or other scientific computing tools or numerical methods",
+      "Experience with DeFi specifically with oracles and oracle-related vulnerabilities",
+      "Experience deploying contracts to the Avalanche chains and an understanding of the Avalanche consensus protocol and the Avalanche virtual machines",
+      "Prior SDK building experience",
+      "Degree in computer science or applied mathematics",
+      "Experience with React and other front-end technologies"
+        ]
+      }
+      ]
+    },
+    {
+      "Quantitative Data Scientist": [
+        {
+          "heading1":"Arrow Markets is in search of a quant data scientist to aid in the furtArrowher development of its pricing and hedging engines as part of it's Automated Market Maker (AMM). This will entail implementing data-driven options risk management models and will include back-testing and make extensive use of data and quantitative techniques, including machine learning.",
+          "heading2":"As part of the Arrow team, you will be at the forefront of developing the protocol that will disrupt traditional options market making and options trading platforms. Our team applies sophisticated mathematical models in conjunction with blockchain technology that draw upon the latest developments in finance, economics, mathematics, and computer science.",
+          "heading3":"A successful candidate will possess deep expertise in sequence modeling or time-series analysis, machine learning, and ML Ops. Experience with deep neural network structures and LSTM/RNN layers and familiarity with reinforcement learning techniques is strongly preferred. They should have a strong desire to collaborate with the team in model building using cutting edge techniques from academia and practice. Proficiency in Python and C++ is a must. The candidate should also possess excellent communication skills.",
+        "Responsibilities:":[
+          "Help design, test and implement Arrow's periphery smart contracts for deployment on Avalanche's C-Chain",
+          "Contribute to security and efficiency testing of Arrow's core contracts",
+          "Help test and optimize Arrow's pricing API and option delivery circuit"
+        ],
+       "Qualifications and Relevant skills:":[
+    "Graduate degree (MS or PhD) in a quantitative field (Mathematics, Physics, Statistics, Economics, Computer Science, etc).",
+    "Entrepreneurial spirit, strong attention to details, ability to take the lead on projects, and passion for spreading a culture of change towards decentralized finance and data-driven decision making.",
+    "Extensive experience in sequence or time-series modeling including deep learning techniques such as LSTM and RNN is preferred.",
+    "Familiarity with reinforcement learning techniques.",
+    "Strong expertise of statistics and machine learning in financial industry"
+        ]
+      }
+      ]
+    }
   ]
 }
