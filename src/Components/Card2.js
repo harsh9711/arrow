@@ -13,11 +13,11 @@ function Card2() {
            <div className="img1">
              <img src={data2.image} alt="" />
            </div>
-           <div className="content1">
+           <div className="contentt1">
              <h1>{data2.name}</h1>
              <h5>{data2.designation}</h5>
-             <a href={data2.instagram}><AiFillInstagram className="icon"/></a>
-             <a href={data2.twitter}><AiFillTwitterCircle  className="icon"/></a>         
+             <a href={data2.instagram}><AiFillInstagram className="iconnn"/></a>
+             <a href={data2.twitter}><AiFillTwitterCircle  className="iconnn"/></a>         
              <p>{data2.description}</p>
            </div>
          </div>

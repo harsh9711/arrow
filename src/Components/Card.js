@@ -5,18 +5,18 @@ import {AiFillInstagram} from 'react-icons/ai';
 import {AiFillTwitterCircle} from 'react-icons/ai';
 function Card() {
   return (
-    <div className="container">
-   <div className="cards">
+    <div className="containerr">
+   <div className="cardds">
       {data.map((data, i) => (
-        <div className="card" key={i}>
+        <div className="carddd" key={i}>
           <div className="img">
             <img src={data.image} alt="" />
           </div>
-          <div className="content">
+          <div className="contennt">
             <h1>{data.name}</h1>
             <h5>{data.designation}</h5>
-            <a href={data.instagram}><AiFillInstagram className="icon"/></a>
-            <a href={data.twitter}><AiFillTwitterCircle  className="icon"/></a>         
+            <a href={data.instagram}><AiFillInstagram className="iconnn"/></a>
+            <a href={data.twitter}><AiFillTwitterCircle  className="iconnn"/></a>         
             <p>{data.description}</p>
           </div>
         </div>

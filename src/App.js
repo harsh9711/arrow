@@ -9,6 +9,7 @@ import Recruitment from './Components/Recruitment.js'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Errorpage from "./Components/Errorpage.js";
 import "./App.css";
+import Clicklogo from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/Clicklogo.js";
 import Footer from "./Components/Footer.js";
 
 const App = () => {
@@ -25,6 +26,8 @@ const App = () => {
           <Route path ="/singleProduct/:id" element={<SingleProduct/>}/>
           <Route path="/Waitlist" element={<Waitlist/>}/>
           <Route path ="*" element={<Errorpage/>}/>
+          <Route path="/Clicklogo" element={<Clicklogo />} />
+
         </Routes> 
         <Footer/>    
       </Router>

@@ -1,15 +1,52 @@
+/* Reset styles for all elements */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Styles for the buttons */
 .buttons {
   display: flex;
   margin-top: 3rem;
   flex-direction: row;
   gap: 1rem;
   margin-right: 2rem;
+}
+.mobile-menu-content {
+  position: relative;
+  z-index: 1001; /* Ensure the content is above the black overlay */
+  padding: 2rem;
+  color: white;
+}
+
+/* Styles for the navigation links within the mobile menu */
+.nav-links-mobile {
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-link-mobile {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 1rem 0;
+  display: block;
+  transition: color 0.3s ease;
+}
+
+.navbar-link-mobile:hover {
+  color: rgb(78, 74, 255); /* Change link color on hover */
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent black overlay */
+  z-index: 999; /* Place it below the mobile menu */
+  pointer-events: auto; /* Block interactions with elements behind the overlay */
 }
 
 .button1,
@@ -35,6 +72,7 @@
   color: black;
 }
 
+/* Styles for the header */
 .header {
   display: flex;
   justify-content: space-around;
@@ -44,49 +82,55 @@
   color: white;
 }
 
-.logo {
-  max-width: 100%; /* Adjusted to make the logo fully responsive */
-  height: auto; /* Automatically adjusts the height while maintaining aspect ratio */
-}
-
-
+/* Styles for the navigation links */
 .nav-links {
   display: flex;
-  justify-content: space-between; /* Add this line */
+  justify-content: space-between;
   list-style: none;
-  gap: 2rem;
+  gap: 4rem;
   position: relative;
 }
 
 .nav-links li {
-  margin-top: 50px; /* Adjust the margin as needed */
+  margin-top: 50px;
 }
 
 .navbar-link {
   text-decoration: none;
   color: white;
-  font-size: 14px; /* Adjust the font size as needed */
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
-  padding: 10px 20px; /* Add padding to the top and bottom for spacing */
+  padding: 10px 20px;
   transition: all 0.3s ease-in-out;
   text-align: left;
-  display: inline-block; /* Ensure each link is on its line */
+  display: inline-block;
 }
 
+/* Styles for the mobile menu icon */
 .mobile-menu-icon {
   display: none;
 }
 
+/* Styles for the images */
+.image2 {
+  margin-left: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  max-width: 70%;
+}
+
+.image11 {
+  position: relative;
+  right: -2%;
+  max-width: 70%;
+}
+
+/* Media query for screens with a max-width of 1000px (for mobile) */
 @media screen and (max-width: 1000px) {
   .buttons {
     margin-top: 30rem;
     margin-left: 2rem;
-  }
-
-  .img {
-    max-width: 100%; /* Adjusted to make the logo fully responsive */
-    height: auto; /* Automatically adjusts the height while maintaining aspect ratio */
   }
 
   .mobile-menu-icon {
@@ -101,6 +145,7 @@
     outline: none;
     top: 15px;
     right: 25px;
+    height: 10vh;
     cursor: pointer;
   }
 
@@ -108,23 +153,35 @@
     display: none;
   }
 
+  /* Styles for the open mobile menu */
+  .menu-open {
+    width: 300px; /* Adjust the width as needed */
+    height: 100vh; /* Make the mobile menu cover the entire viewport height */
+    position: fixed; /* Make the menu fixed to prevent scrolling */
+    top: 0;
+    right: 0;
+    /* background-color: rgba(0, 0, 0, 0.9); */
+    /* overflow-y: hidden;  */
+    z-index: 1000; /* Ensure the menu is on top of other content */
+  }
+  
+
+  .menu-open {
+    overflow: hidden;
+  }
+
   .nav-links-mobile {
-    margin-bottom: 3rem;
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    list-style: none;
-    background-color: rgb(0, 0, 0);
+    position: fixed;
+    top: 0;
     left: 0;
-    transition: all 0.5s left;
-    top: 5px;
-    transition: all 0.5s ease-out;
     width: 100%;
-    height: 100vh;
+    height: 100%;
+    transition: all 0.5s ease-out;
+    margin-bottom: 3rem;
   }
 
   .navbar-link {
-    font-size: 14px; /* Adjust the font size as needed */
-    margin-bottom: 10px; /* Add space between links */
+    font-size: 14px;
+    margin-bottom: 10px;
   }
 }

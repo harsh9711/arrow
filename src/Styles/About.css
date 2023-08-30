@@ -113,30 +113,36 @@
         font-size: 0.5rem; /* Adjust font size for smaller screens */
       }
   }
-  .btn{
-    margin-top:2rem;
-    font-family: "IBM Plex Mono",monospace;
-    /* margin:0px 8px 0px 0px; */
-/* padding:12px 20px; */
-    border-radius:10px;
-    width:15%;
-    height:5vh;
+  .btn {
+    margin-top: 2rem;
+    font-family: "IBM Plex Mono", monospace;
+    border-radius: 10px;
+    width: 150px; /* Fixed width in pixels */
+    height: 50px; /* Fixed height in pixels */
     background-color: rgb(78, 74, 255);
     border: rgb(78, 74, 255);
-    color:white;
-    font-weight:400;
-      @media screen and (max-width: 768px) {
-        width:25%;
-      }
-      @media screen and (max-width: 468px) {
-        width:35%;
-      }
-      @media screen and (max-width: 268px) {
-        width:65%;
-      }
-      @media screen and (max-width: 168px) {
-        width:95%;
-      }
+    color: white;
+    font-weight: 400;
+  
+    @media screen and (max-width: 768px) {
+      width: 150px; /* Adjust width for smaller screens */
+      height: 50px; /* Adjust height for smaller screens */
+    }
+  
+    @media screen and (max-width: 468px) {
+      width: 150px; /* Adjust width for even smaller screens */
+      height: 120px; /* Adjust height for even smaller screens */
+    }
+  
+    @media screen and (max-width: 268px) {
+      width: 150px; /* Adjust width for very small screens */
+      height: 140px; /* Adjust height for very small screens */
+    }
+  
+    @media screen and (max-width: 168px) {
+      width: 150px; /* Adjust width for extremely small screens */
+      height: 160px; /* Adjust height for extremely small screens */
+    }
   }
   .paragraph{
     margin-top:10rem;

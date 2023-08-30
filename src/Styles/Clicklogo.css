@@ -1,0 +1,402 @@
+.container231{
+max-width: 1300px;
+margin: 0 auto;
+padding: 0 20px;}
+.heading1 {
+color:white;
+font-size:3rem;
+}
+.heading1image{
+margin-top:2rem;
+    max-width: 80%; 
+    height: auto;
+}
+.heading1{
+    margin-top:2rem;
+    width:70%;
+}
+.heading1 p{
+    width:60%;
+    font-size:1rem;
+    margin-top:2rem;
+}
+.container1{
+    display: flex;
+    /* flex-wrap:wrap; */
+}
+.cards123{
+    margin-top:6rem;
+}
+.sidebuttons {
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: center; /* Center the buttons vertically */
+  }
+  .sidebuttons h2 {
+    font-family: "IBM Plex Mono", monospace;
+    position: relative;
+    right:-10%;
+   color:white;
+   font-size:1rem;
+   margin-bottom:1rem;
+  }
+  
+  .icon-container {
+    gap:1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  .circle-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px; /* Set the size of the circular container */
+    height: 60px; /* Set the size of the circular container */
+    border: 2px solid white; /* Add a white border around the circle */
+    border-radius: 50%; /* Create a circular shape */
+    color: rgb(78, 74, 255);
+    font-size: 1.5rem; /* Adjust the icon size to make them smaller */
+    cursor: pointer; /* Add a cursor pointer to indicate interactivity */
+    margin-top: -1rem; /* Raise the icons upward */
+  }
+  .icon {
+    width:60%;
+    color: white;
+  }
+  .rowing{
+    justify-content:space-between;
+    display: flex;
+    flex-direction: row;
+  }
+  .heading12{
+    animation: slideUp2 1s ease-in-out ;
+
+  }
+  .heading12 h1{
+    margin-top:-1rem;
+    /* width:70%; */
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   color:#ffff;
+   margin-top:10rem;
+   font-size:7rem;
+  }
+  
+  
+  /* Apply the animation to the heading12 element */
+  
+  /* .heading12.animated {
+    transform: translateY(0);
+    opacity: 1;
+    animation: none; /* Remove animation here */ 
+
+  .heading123 h2{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   color: rgb(78, 74, 255);
+   font-size:6.5rem;
+   margin-top:-1rem;
+  }
+  .heading123 h3{
+    margin-top:-1.5rem;
+    /* width:70%; */
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   color:#ffff;
+   font-size:7rem;
+  }
+  .heading123 h1{
+    margin-top:10.5rem;
+    /* width:70%; */
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+   color:#ffff;
+   font-size:7rem;
+  }
+
+  
+  .card-row {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .card {
+    margin-top:4rem;
+    flex: 0 1 calc(33.33% - 8px); /* Adjust the width as needed */
+    background-color: #141414;
+    padding: 20px; /* Add padding to create space inside the cards */
+    border-radius: 4px; /* Add rounded corners to the cards */
+  }
+ /* Adjust the card-rowsecond section */
+/* Adjust the card-rowsecond section */
+.card-rowsecond {
+  display: flex;
+  justify-content: space-between; /* Adjust the spacing between cards */
+  margin-top: -10px; 
+
+  /* justify-content: space-between; */
+
+}
+
+/* Style each carding container */
+.larger-image {
+
+  width: 100%; /* Adjust the width as needed */
+  height: auto; /* Maintain aspect ratio */
+}
+
+
+
+/* Media query for responsive layout */
+@media (max-width: 768px) {
+  .card-rowsecond {
+    flex-direction: column;
+  }
+
+  .carding,
+  .cardinging {
+    margin-right: 0; /* Remove margin for stacked layout */
+    margin-bottom: 20px; /* Add spacing between stacked carding containers */
+  }
+}
+
+  
+  /* Add additional styling for h2 and p elements inside the cards if needed */
+  .card h2 {
+    background-color: #141414;
+    font-size: 1.8rem;
+    font-weight:900;
+    margin-bottom: 10px;
+    width:100%;
+  }
+   .card h1 {
+    background-color: #141414;
+    font-size: 1.8rem;
+    font-weight:900;
+    margin-bottom: 10px;
+    width:10%;
+  }
+  .cardmodified h2 {
+    color:white;
+    background-color: #141414;
+    font-size: 1.8rem;
+    font-weight:900;
+    margin-bottom: 5px;
+    width:20%;
+  }
+ 
+  .contain{
+    position: relative;
+    left:-16%;
+    top:2%;
+    background-color: #141414;
+    padding:4.7rem;
+  }
+  .icons {
+    position: relative;
+    left:-13%;
+    top:3%;
+    background-color: #141414;
+  width:60%;
+    font-size:4rem;
+    color: white;
+  }
+  
+  .card p {
+    background-color: #141414;
+    font-size: 1rem;
+  }
+
+section {
+  margin-top:4rem;
+  position: relative;
+  display: flex;
+}
+
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(90px);
+    opacity: 0;
+  }
+  200% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.content{
+  background-color: rgb(78, 74, 255);
+  position: relative;
+  padding:2rem;
+}
+.content h2{
+  background-color: rgb(78, 74, 255); 
+   color: white;
+ margin-bottom:4rem;
+ font-size:2.7rem;
+ font-weight: 700;
+ width: 20%;
+}
+
+.content p{
+  color: white;
+  background-color: rgb(78, 74, 255);
+margin-bottom:4rem;
+ max-width:70%;
+}
+.carding {
+  margin-right:10px;
+  flex: 1; /* Equal flex value for both elements */
+  margin-right: 20px; /* Add spacing between the carding containers */
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(78, 74, 255);
+}
+.cardinging {
+  margin-left:-10px;
+  flex: 1; /* Equal flex value for both elements */
+  border-radius: 5px;
+  background-color: #141414;
+
+}
+.image-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: #141414;
+  border: 2px solid  #141414; /* Border style and color */
+  padding: 20px; /* Padding around the image */
+  border-radius: 90px; /* Rounded corners */
+  box-sizing: border-box;
+}
+
+.btn12 {
+  margin-top: 2rem;
+  font-family: "IBM Plex Mono", monospace;
+  border-radius: 10px;
+  width: 130px; /* Fixed width in pixels */
+  height:60px; /* Fixed height in pixels */
+  background-color:white;
+  border: white;
+  font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    width: 150px; /* Adjust width for smaller screens */
+    height: 50px; /* Adjust height for smaller screens */
+  }
+
+  @media screen and (max-width: 468px) {
+    width: 150px; /* Adjust width for even smaller screens */
+    height: 120px; /* Adjust height for even smaller screens */
+  }
+
+  @media screen and (max-width: 268px) {
+    width: 150px; /* Adjust width for very small screens */
+    height: 140px; /* Adjust height for very small screens */
+  }
+
+  @media screen and (max-width: 168px) {
+    width: 150px; /* Adjust width for extremely small screens */
+    height: 160px; /* Adjust height for extremely small screens */
+  }
+}
+.btning {
+  margin-top: 4rem;
+  font-family: "IBM Plex Mono", monospace;
+  border-radius: 10px;
+  width: 200px; /* Fixed width in pixels */
+  height:60px; /* Fixed height in pixels */
+  background-color:white;
+  border: white;
+  font-weight: 400;
+
+  @media screen and (max-width: 768px) {
+    width: 150px; /* Adjust width for smaller screens */
+    height: 50px; /* Adjust height for smaller screens */
+  }
+
+  @media screen and (max-width: 468px) {
+    width: 150px; /* Adjust width for even smaller screens */
+    height: 120px; /* Adjust height for even smaller screens */
+  }
+
+  @media screen and (max-width: 268px) {
+    width: 150px; /* Adjust width for very small screens */
+    height: 140px; /* Adjust height for very small screens */
+  }
+
+  @media screen and (max-width: 168px) {
+    width: 150px; /* Adjust width for extremely small screens */
+    height: 160px; /* Adjust height for extremely small screens */
+  }
+}
+
+.badewaleimage{
+  margin-top:15rem;
+}
+.consing center-text{
+  margin-top:5rem;
+}
+.paragraph h1{
+  width: 120%;
+  font-weight:400;
+}
+.investors{
+  margin-top:10rem;
+  font-size:3rem;
+  color:white;
+}
+.investor h1{
+  margin-bottom:22rem;
+}
+.iconsing{
+  position: relative;
+  right:-10%;
+  gap:8rem;
+  width:70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap:wrap;
+}
+.iconsface{
+  margin: 0 5px;
+  width:60%;
+  font-size:2rem;
+}
+.iconsing h1{
+ position: relative;
+  font-size:1rem;
+  font-weight:600;
+  color:rgb(122, 122, 122);
+text-transform: uppercase;
+text-decoration: none;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.iconsing h1:hover{
+  color:white;
+ }
+.center-text {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+
+.iconsing center-text{
+  margin-top:4rem;
+}
