@@ -5,6 +5,7 @@ import About from './Components/About.js'
 import Docs from './Components/Docs.js'
 import Research from './Components/Research.js'
 import SingleProduct from './Components/SingleProduct.js'; 
+import Diffpage from '/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/Diffpage.js'; 
 import Recruitment from './Components/Recruitment.js'
 import {BrowserRouter as Router,Routes,Route} from "react-router-dom"
 import Errorpage from "./Components/Errorpage.js";
@@ -25,9 +26,9 @@ const App = () => {
           <Route path="/Docs" element={<Docs/>}/>
           <Route path ="/singleProduct/:id" element={<SingleProduct/>}/>
           <Route path="/Waitlist" element={<Waitlist/>}/>
+          <Route path="/Diffpage" element={<Diffpage/>}/>
           <Route path ="*" element={<Errorpage/>}/>
           <Route path="/Clicklogo" element={<Clicklogo />} />
-
         </Routes> 
         <Footer/>    
       </Router>

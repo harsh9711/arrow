@@ -5,7 +5,9 @@ import imageSrc1 from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/assets/5.
 import imageSrcMobile from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/assets/6.png";
 // import { FiShoppingCart } from "react-icons/fi";
 import { CgMenu, CgClose } from "react-icons/cg";
+import Diffpage from './Diffpage'; 
 import Clicklogo from "/Users/harshsahcdeva/Documents/GitHub/arrow/src/Components/Clicklogo.js";
+
 
 const Navbar = () => {
   const [isMobile, setIsMobile] = useState(false);
@@ -72,9 +74,9 @@ const Navbar = () => {
             <NavLink to="/About">
               <button className="button2">INSTALL APP</button>
             </NavLink>
-            <NavLink to="/About">
-              <button className="button1">LAUNCH BETA</button>
-            </NavLink>
+            <NavLink to="/Diffpage">
+  <button className="button1">LAUNCH BETA</button>
+</NavLink>
           </div>
         </ul>
         <button className="mobile-menu-icon" onClick={() => setIsMobile(!isMobile)}>

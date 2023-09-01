@@ -92,25 +92,25 @@ const Clicklogo = () => {
       </section>
       <section>
       <div className="container reveal fade-bottom">
-      <div className="card-row">
-        <div className="card">
-        <SlDiamond className="icons"/>
-        <div className="contain">
+      <div className="card-rowsecond1">
+        <div className="cardstyle">
+        <SlDiamond className="iconstyle"/>
+        <div className="containstyle">
           <h2>Full Suite of Options</h2>
           <p>Request for Quotes (RFQs) allow for competitive price discovery for options contracts across strikes and expiration</p>
           </div>
         </div>
-        <div className="card"> 
-        <AiOutlinePaperClip className="icons"/>
-        <div className="contain">
-          <h2>Intuitive Trading Experience</h2>
+        <div className="cardstyle"> 
+        <AiOutlinePaperClip className="iconstyle"/>
+        <div className="containstyle">
+          <h1>Intuitive Trading Experience</h1>
           <p>Arrow's recommendation engine offers the perfect option on the Lite mode, while the Pro mode is ideal for experienced traders.</p>
         </div>
         </div>
-        <div className="card">
-        <PiCubeFocusLight className="icons"/>
-        <div className="contain">
-          <h2>Front-running Resistant</h2>
+        <div className="cardstyle">
+        <PiCubeFocusLight className="iconstyle"/>
+        <div className="containstyle">
+          <h1>Front-running Resistant</h1>
           <p>Request for Quotes (RFQs) offer fast price quotes that are protected against front-running.</p>
       </div>
         </div>
@@ -142,25 +142,25 @@ const Clicklogo = () => {
             <button className="btning">DEPOSIT NOW</button>
           </div>
           <div className="container reveal fade-bottom">
-          <div className="card-row">
-        <div className="card">
-        <Tb3DCubeSphere className="icons"/>
-        <div className="contain">
+          <div className="card-rowsecond">
+        <div className="carrrd">
+        <Tb3DCubeSphere className="iiicon"/>
+        <div className="contttain">
           <h2>Credit Spread Option Vaults</h2>
           <p>Our option recommender system picks the best option for users looking for a simplified options trading experience</p>
           </div>
         </div>
-        <div className="card"> 
-        <SiRoundcube className="icons"/>
-        <div className="contain">
+        <div className="carrrd"> 
+        <SiRoundcube className="iiicon"/>
+        <div className="contttain">
           <h1>Iron Condor</h1>
           <p>Clearly visualize your Profit or Loss on your Vault Deposits or Option Purchases by using the simulator.</p>
         </div>
         </div>
-        <div className="card">
-        <FaDashcube className="icons"/>
-        <div className="contain">
-          <h2>Generalized Option Vaults</h2>
+        <div className="carrrd">
+        <FaDashcube className="iiicon"/>
+        <div className="contttain">
+          <h3>Generalized Option Vaults</h3>
           <p>Put CSOVs, Iron Condors, and Butterfly Spreads are going to come soon..</p>
       </div>
         </div>
