@@ -1,0 +1,129 @@
+
+.container231{
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 20px;}
+ 
+    .card-rowsecond1 {
+      display: flex;
+      justify-content: space-between; 
+      margin-top:10px;  
+    }
+    .card-rowsecond1{
+      width: 160%;
+      display: flex;
+      justify-content: space-between; 
+      margin-top:10px;  
+      right:10%;
+      position: relative;
+    }
+    .image-box1 {
+        background-color: #141414;
+        padding: 10px; 
+        border-radius: 5px; 
+      }
+    .larger-image1 {  
+      width: 100%; /* Adjust the width as needed */
+      height: auto; /* Maintain aspect ratio */
+    }
+   .content1{
+      background-color: rgb(78, 74, 255);
+      position: relative;
+      padding:2rem;
+      /* right:50%; */
+    }
+    .content1 h2{
+      background-color: rgb(78, 74, 255); 
+       color: white;
+     margin-bottom:4rem;
+     font-size:2.7rem;
+     font-weight: 700;
+     width: 10%;
+    }
+    
+    .content1 p{
+      color: white;
+      background-color: rgb(78, 74, 255);
+    margin-bottom:4rem;
+     max-width:70%;
+    }
+    .carding1 {
+        margin-right:32rem;
+        margin-left: 1px;
+        flex: 0 1 calc(26% - 8px); /* Adjust the width as needed */
+        padding: 10px; /* Reduce padding to make it smaller */
+        border-radius: 5px;
+        background-color: black;
+    }
+    .cardinging1 {
+      margin-left:-10px;
+      flex: 1; /* Equal flex value for both elements */
+      border-radius: 5px;
+      background-color: #141414;
+    
+    }
+    .hover-underline-animation {
+        display: inline-block;
+        position: relative;
+        /* color: #0087ca; */
+      }
+      
+      .hover-underline-animation.active {
+        border-bottom: 2px solid #0087ca; /* Add a bottom border for active headings */
+      }
+      
+      .hover-underline-animation::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        /* background-color: #0087ca; */
+      }
+
+      
+      .hover-underline-animation:hover:after {
+        transform: scaleX(1);
+        transform-origin: bottom left;
+      }
+      
+    .secondbox{
+        display: flex;
+        flex-direction: row;
+        gap:2rem;
+        background-color: #141414;
+        justify-content: center;
+        align-items: center;
+        border:2px solid white;
+        padding:40px;
+    }
+    .secondbox h2{
+        position: relative;
+        right:40%;
+       color:white;
+       font-size: 1rem;
+       font-family: "IBM Plex Mono", monospace;
+       font-weight: 800;
+    }
+    .thirdbox{
+        max-width: 1000px;
+        margin: 0 auto;
+        padding: 0 20px;
+        background-color:#141414;
+    }
+    
+    .carrd1 {
+        margin-top:4rem;
+        flex: 0 1 calc(33.33% - 8px); /* Adjust the width as needed */
+        background-color: red;
+        padding: 20px; /* Add padding to create space inside the cards */
+        border-radius: 4px; /* Add rounded corners to the cards */
+      }
+      .thirdbox.visible {
+        display: block; /* Show the .thirdbox when it has the "visible" class */
+      }
+ 
+
+   
+   

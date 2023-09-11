@@ -1,0 +1,67 @@
+.center_div {
+  width:20%;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  background-color: black;
+  border-radius: 8px;
+  padding: 20px;
+  justify-content: space-between; /* Align buttons and h1 on the same row */
+}
+
+.center_div h1 {
+  font-size: 48px;
+  margin: 0;
+  color: white;
+}
+
+
+.btn_div {
+  display: flex;
+  flex-direction: row;
+  max-width:10%;
+}
+
+button {
+  font-size: 24px;
+  padding: 10px 10px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn_green {
+  color: white;
+}
+
+.btn_red {
+  color: white;
+}
+
+.btn_green:hover,
+.btn_red:hover {
+  filter: brightness(110%);
+}
+
+.iconic1 {
+  margin-right: 0.5rem;
+  width: 30px; /* Set the width statically */
+  height: 30px; /* Set the height statically */
+  font-size: 1.5rem; /* Adjust the font size */
+  color: white;
+}
+
+.iconic {
+  margin-left: 1rem;
+  width: 30px; /* Set the width statically */
+  height: 30px; /* Set the height statically */
+  font-size: 1.5rem; /* Adjust the font size */
+  color: white;
+}
+
+.alert_message {
+  color: #f44336;
+  margin-top: 10px;
+}
+

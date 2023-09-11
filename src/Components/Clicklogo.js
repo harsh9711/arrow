@@ -92,7 +92,7 @@ const Clicklogo = () => {
       </section>
       <section>
       <div className="container reveal fade-bottom">
-      <div className="card-rowsecond1">
+      <div className="card-rowsecond11">
         <div className="cardstyle">
         <SlDiamond className="iconstyle"/>
         <div className="containstyle">
